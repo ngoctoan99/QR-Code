@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:background="#A8A8A8"></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Contact Me"
+        android:textColor="#4A000000"
+        android:textSize="30dp"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#4A000000"
+        android:text="Email : nguyenngoctoan2110@gmail.com"
+        android:textSize="15dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#4A000000"
+        android:text="My Phone: 0354922786"
+        android:textSize="15dp"></TextView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Facebook"
+        android:textAllCaps="false"
+        android:id="@+id/btnface"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/iconface"
+        android:background="@drawable/custom_bac"
+        app:backgroundTint="#4A000000"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"></Button>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Cancle"
+        android:textAllCaps="false"
+        android:id="@+id/btnCancle"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_bac"
+        app:backgroundTint="#4A000000"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:layout_margin="10dp"></Button>
+</LinearLayout>

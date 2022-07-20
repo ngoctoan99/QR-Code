@@ -16,4 +16,10 @@
     <style name="ProgressBar">
         <item name="colorSecondary">@color/white</item>
     </style>
+    <style name="BottomSheetStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+    </style>
+    <style name="Modal">
+        <item name="android:background">@drawable/sheet</item>
+    </style>
 </resources>
